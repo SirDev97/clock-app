@@ -1,9 +1,5 @@
 // Global variables for getting the current time
 
-const date = new Date();
-const h = date.getHours();
-let m = date.getMinutes();
-
 // const h = 20;
 
 // Button events
@@ -93,12 +89,15 @@ btnRefresh.addEventListener('click', fetchQuotes);
 // Showing current time and greeting message function
 
 (function showTime() {
+  const date = new Date();
+  const h = date.getHours();
+  let m = date.getMinutes();
   m = m < 10 ? '0' + m : m;
 
-  document.getElementById('hours').innerText = h;
-  document.getElementById('minutes').textContent = m;
-
   const greeting = document.getElementById('greeting');
+
+  document.getElementById('hours').innerHTML = h;
+  document.getElementById('minutes').innerHTML = m;
 
   if (h > 5 && h < 12) greeting.innerText = 'Good Morning';
   if (h >= 12 && h < 18) greeting.innerText = 'Good Afternoon';
@@ -117,6 +116,9 @@ function addMultiEvents(element, eventNames, listener) {
 // Logic for changing background depending on time of day
 
 addMultiEvents(window, 'load resize', function () {
+  const date = new Date();
+  const h = date.getHours();
+
   const windowWidth = window.innerWidth;
   const detailData = document.querySelector('.detailed-data');
   const detailDataContent = document.querySelector('.collapsible__content');
