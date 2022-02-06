@@ -31,7 +31,7 @@ btn.addEventListener('click', toggleExpandedStates);
 // Reusable function for fetching api data
 
 const fetchData = async (url) => {
-  const controller = new AbortController();
+  let controller = new AbortController();
 
   try {
     const res = await fetch(url, { signal: controller.signal });
