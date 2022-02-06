@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Clock App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+      <section class="quotes quotes--expanded">
+        <div class="quotes__content">
+          <p class="quotes__text">
+            "Most software today is very much like an Egyptian pyramid with
+            millions of bricks piled on top of each other, with no structural
+            integrity, but just done by brute force and thousands of slaves."
+          </p>
+          <p class="quotes__author">Alan Kay</p>
+        </div>
+        <button id="btn--refresh">
+          <img
+            class="refresh-icon"
+            src="assets/desktop/icon-refresh.svg"
+            alt="refresh icon"
+          />
+        </button>
+      </section>
+      <section class="main-data">
+        <div class="main-data__content">
+          <div class="greeting">
+            <img id="sun-icon" src="assets/desktop/icon-sun.svg" alt="sun icon" />
+            <p id="greeting">Good Morning</p>
+            <span class="greeting--tablet d-none">It's Currently</span>
+          </div>
+          <div class="time">
+              <p id="time">
+                <p id="hours">00</p><p class="dots">:</p
+                ><p id="minutes">00</p>
+              </p>
+            <span id="abbreviation">BST</span>
+          </div>
+          <div class="location">
+            <p>In</p>
+            <span id="location">London, UK</span>
+          </div>
+        </div>
+        <div class="main-data--btn">
+          <button class="btn">
+            <p id="btn-text">More</p>
+            <img
+              id="btn-arrow"
+              src="assets/desktop/icon-arrow-up.svg"
+              alt="arrow pointing down"
+            />
+          </button>
+        </div>
+      </section>
+      <section class="detailed-data">
+        <div class="collapsible">
+          <div class="collapsible__content">
+            <div class="collapsible__content__group">
+              <div class="collapsible__content__item">
+                <p class="timezone">Current Timezone</p>
+                <span id="timezone">Europe/London</span>
+              </div>
+  
+              <div class="collapsible__content__item">
+                <p class="day-of-year">Day of the Year</p>
+                <span id="day-of-year">295</span>
+              </div>
+            </div>
+  
+            <div class="vertical d-none"></div>
+  
+            <div class="collapsible__content__group">
+              <div class="collapsible__content__item">
+                <p class="day-of-week">Day of the Week</p>
+                <span id="day-of-week">5</span>
+              </div>
+  
+              <div class="collapsible__content__item">
+                <p class="week-number">Week Number</p>
+                <span id="week-number">42</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  </body>
+</html>
