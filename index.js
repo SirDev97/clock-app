@@ -54,7 +54,7 @@ const fetchData = async (url) => {
 // World time api fetch request
 
 (async function () {
-  const data = await fetchData('http://worldtimeapi.org/api/ip');
+  const data = await fetchData('http://worldtimeapi.org/api/ip:splat 200');
 
   document.getElementById('timezone').innerText = data.timezone;
   document.getElementById('day-of-year').innerText = data.day_of_year;
