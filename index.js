@@ -1,7 +1,3 @@
-// Global variables for getting the current time
-
-// const h = 20;
-
 // Button events
 
 const toggleExpandedStates = () => {
@@ -94,6 +90,8 @@ btnRefresh.addEventListener('click', fetchQuotes);
   let m = date.getMinutes();
   m = m < 10 ? '0' + m : m;
 
+  // const h = 10;
+
   const greeting = document.getElementById('greeting');
 
   document.getElementById('hours').innerHTML = h;
@@ -118,6 +116,8 @@ function addMultiEvents(element, eventNames, listener) {
 addMultiEvents(window, 'load resize', function () {
   const date = new Date();
   const h = date.getHours();
+  // const h = 10;
+  // White bar in the night time bg is because of the image itself.
 
   const windowWidth = window.innerWidth;
   const detailData = document.querySelector('.detailed-data');
