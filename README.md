@@ -52,7 +52,7 @@ Users should be able to:
 
 ### What I learned
 
-One of the problems that took me the most amount of time was selecting the content of the detailed data section with my javascript so I can change the font color for the night time view. One way was to select all of the content children by class name and directly modify their style one by one, but that was adding alot of unnecessary noise to the code. The workaround I found was getting all of the required elements by tag name and looping through the HTMLCollection with a for of loop.
+One of the problems that took me the most time was selecting the content of the detailed data section with my javascript so I could change the font color for the nighttime view. One way was to choose all of the content children by class name and directly modify their style one by one, but that added a lot of unnecessary noise to the code. The workaround I found was getting all of the required elements by tag name and looping through the HTMLCollection with a for-of loop.
 
 ```js
 const detailDataContent = document.querySelector('.collapsible__content');
@@ -63,12 +63,12 @@ for (let item of pList) item.style.color = '#fff';
 for (let item of spanList) item.style.color = '#fff';
 ```
 
-I probably could of avoided this issue in the first place if I didnt select the paragraphs and span elements by tag name in my css and also if I used more utility classes in genreal, but given that this was not such a big project I didnt feel the need to do so.
+I probably could have avoided this issue in the first place if I didn't select the paragraphs and span elements by tag name in my CSS and also if I used more utility classes in general. Still, given that this was not a big project, I didn't feel it necessary.
 
 ### Useful resources
 
-- [Fetch with async/await](https://dmitripavlutin.com/javascript-fetch-async-await/) - This is an amazing article that answerd alot of my fetch request questions with async and await. I really think it's worth the read.
-- [Loops in nodeLists and HTMLCollections](https://stackoverflow.com/questions/22754315/for-loop-for-htmlcollection-elements) - The top answer here really gives a good explanation on the proper ways loops should be used in a nodeList or an HTMLCollection.
+- [Fetch with async/await](https://dmitripavlutin.com/javascript-fetch-async-await/) - This fantastic article answered a lot of my fetch request questions with async and await. I think it's worth the read.
+- [Loops in nodeLists and HTMLCollections](https://stackoverflow.com/questions/22754315/for-loop-for-htmlcollection-elements) - The top answer here explains the proper ways developers should use loops in a nodeList or an HTMLCollection.
 
 ## Author
 
@@ -78,4 +78,4 @@ I probably could of avoided this issue in the first place if I didnt select the 
 
 ## Acknowledgments
 
-- [Digital Clock - Aaron Farrar](https://codepen.io/afarrar/pen/JRaEjP) - Inspiration for updating the clock in real time.
+- [Digital Clock - Aaron Farrar](https://codepen.io/afarrar/pen/JRaEjP) - Inspiration for updating the clock in real-time.
