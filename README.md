@@ -5,19 +5,19 @@ This is a solution to the [Clock app challenge on Frontend Mentor](https://www.f
 ## 📑 Table of contents
 
 - [Overview 👁‍🗨](#overview)
-  - [The challenge](#the-challenge)
+  - [Requirements ](#requirements)
   - [Screenshots 📸](#screenshots)
   - [Links 🔗](#links)
 - [My process ⚙](#my-process)
   - [Built with 🛠](#built-with)
   - [What I learned 📚](#what-i-learned)
   - [Useful resources 🔍](#useful-resources)
-- [Author 🖋](#author)
+- [Author 🖋](#author) 
 - [Acknowledgments 🙏](#acknowledgments)
 
 ## Overview
 
-### The challenge
+### Requirements 
 
 Users should be able to:
 
