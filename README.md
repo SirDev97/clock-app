@@ -73,7 +73,7 @@ I probably could have avoided this issue in the first place if I didn't select t
 ## Author
 
 - LinkedIn - [Alkin Maystorov](https://www.linkedin.com/in/alkin-maystorov/)
-- Github - [@SirDev97](https://github.com/SirDev97)
+- Website - [@Alkin Maystorov](https://www.alkinmaystorov.com)
 - Frontend Mentor - [@SirDev97](https://www.frontendmentor.io/profile/SirDev97)
 
 ## Acknowledgments
