@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/SirDev97/clock-app)
-- Live Site URL: [Github-Pages](https://sirdev97.github.io/clock-app/)
+- Solution URL: [Github](https://github.com/a-maystorov/clock-app)
+- Live Site URL: [Github-Pages](https://a-maystorov.github.io/clock-app/)
 
 ## My process
 
@@ -73,7 +73,7 @@ I probably could have avoided this issue in the first place if I didn't select t
 ## Author
 
 - LinkedIn - [Alkin Maystorov](https://www.linkedin.com/in/alkin-maystorov/)
-- Website - [alkinmaystorov.com](https://www.alkinmaystorov.com)
+- Website - [alkinmaystorov.com](https://alkinmaystorov.com)
 - Frontend Mentor - [@SirDev97](https://www.frontendmentor.io/profile/SirDev97)
 
 ## Acknowledgments
